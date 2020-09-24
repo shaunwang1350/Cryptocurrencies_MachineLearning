@@ -1,9 +1,7 @@
 # Cryptocurrencies_MachineLearning
 
 ## Background
-what cryptocurrencies are on the trading market and how cryptocurrencies could be grouped toward creating a classification for developing this new investment product.
-decided to use unsupervised learning
-decided on a clustering algorithm to help determine about investing in this product. She’ll use data visualizations to share her findings with the board.
+The aim of this project is to determine cryptocurrencies grouping based upon unsupervised machine learning. The project will compare clustering algorithms, such as Kmeans, Hierachical Clustering. There will also be data visualizations to share my findings.
 
 ## Objectives
 The goals for this project is to:
