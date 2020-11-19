@@ -1,4 +1,9 @@
 # Cryptocurrencies_MachineLearning
+![Developement](https://img.shields.io/badge/progress-complete-green)
+![reposize](https://img.shields.io/github/repo-size/shaunwang1350/Cryptocurrencies_MachineLearning)
+![commit](https://img.shields.io/github/last-commit/shaunwang1350/Cryptocurrencies_MachineLearning)
+![githubfollows](https://img.shields.io/github/followers/shaunwang1350?style=social)
+<br >
 
 ## Background
 The aim of this project is to determine cryptocurrencies grouping based upon unsupervised machine learning. The project will compare clustering algorithms, such as Kmeans, Hierachical Clustering. There will also be data visualizations to share my findings.
@@ -10,6 +15,10 @@ The goals for this project is to:
 * Reduce data dimensions using PCA algorithms from sklearn.
 * Predict clusters using cryptocurrencies data using the K-means algorithm form sklearn.
 * Create some plots and data tables to present your results.
+
+![Data Table](resources/Table.png)
+
+![3D Scatter Plot](resources/3DScatter.png)
 
 ## Technologies Used
 * Python
@@ -46,6 +55,3 @@ The goals for this project is to:
 * Use hvplot.table to create a data table with all the current tradable cryptocurrencies. The table should have the following columns: CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined, and Class.
 * Create a scatter plot using hvplot.scatter to present the clustered data about cryptocurrencies having x="TotalCoinsMined" and y="TotalCoinSupply" to contrast the number of available coins versus the total number of mined coins. Use the hover_cols=["CoinName"] parameter to include the cryptocurrency name on each data point.
 
-![Data Table](resources/Table.png)
-
-![3D Scatter Plot](resources/3DScatter.png)
