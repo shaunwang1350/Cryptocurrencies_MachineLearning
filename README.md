@@ -14,7 +14,7 @@ The goals for this project is to:
 * Prepare the data for dimensions reduction with PCA and clustering using K-means.
 * Reduce data dimensions using PCA algorithms from sklearn.
 * Predict clusters using cryptocurrencies data using the K-means algorithm form sklearn.
-* Create some plots and data tables to present your results.
+* Create some plots and data tables to present the results.
 
 ![Data Table](resources/Table.png)
 
@@ -45,7 +45,7 @@ The goals for this project is to:
 
 ### Clustering Cryptocurrencies Using K-means
 * Create an elbow curve to find the best value for K, and use the pcs_df DataFrame.
-* Once you define the best value for K, run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Use the pcs_df to run the K-means algorithm.
+* Run the K-means algorithm to predict the K clusters for the cryptocurrencies’ data. Use the pcs_df to run the K-means algorithm.
 * Create a new DataFrame named “clustered_df,” that includes the following columns: Algorithm, ProofType, TotalCoinsMined, TotalCoinSupply, PC 1, PC 2, PC 3, CoinName, and Class. Remember to maintain the index of the crypto_df DataFrames as is shown below:
 
 ### Visualizing Results
